@@ -74,11 +74,10 @@ footer {
 }
 h2.about-rect-words {
   position: absolute;
-  width: 601.44px;
+  width: 600px;
   height: 128px;
   left: 100px;
   top: 40px;
-  font-style: normal;
   font-weight: bold;
   font-size: 50px;
   line-height: 64px;
@@ -87,7 +86,7 @@ h2.about-rect-words {
 }
 .scienceIcons {
   text-align: center;
-  margin-top: 90px;
+  margin: 90px;
 }
 .scienceIcons > img {
   width: 120px;
@@ -162,8 +161,8 @@ input[type="submit"]:hover {
 }
 .contact {
   width: 60%;
-  float:left;
-  margin-left:170px;
+  float: left;
+  margin-left: 170px;
 }
 .contact > p {
   margin: 40px auto;
@@ -172,8 +171,88 @@ input[type="submit"]:hover {
   position: absolute;
   width: 500px;
   height: 600px;
-  left: 900px;
+  left: 65%;
   top: 140px;
-  transform: rotate(-36.78deg) scale(.8);
-  /* transform: scale(.8); */
+  transform: rotate(-36.78deg) scale(0.8);
+}
+.donate {
+  margin-top: 700px;
+}
+.contactFooter{
+  margin-top:700px;
+}
+@media (max-width: 1300px) {
+  .donate-rect,
+  .donate-header,
+  .donate-rect > img {
+    transform: scale(0.8);
+  }
+  .donate-header {
+    left: 10px;
+  }
+  .donate-rect {
+    left: 350px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .donate-header {
+    position: static;
+    text-align: center;
+    width:100%;
+    font-size:55px;
+  }
+  .donate-rect {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 300px;
+  }
+  .donate-rect > img {
+    position: absolute;
+    width: 94%;
+    top: 10px;
+    left: 10px;
+    height:500px;
+  }
+  .donate {
+    margin-top: 400px;
+  }
+  .doubleHelix{
+    display: none;
+  }
+  .contact{
+    margin:0 auto;
+    float:none;
+    width:80%;
+  }
+  .contactFooter{
+    margin-top:80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .landingImage,
+  .about-rect {
+    width: 100%;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+  .logo a {
+    font-size: 20px;
+  }
+  nav a {
+    font-size: 15px;
+  }
+  .summary > img {
+    display: none;
+  }
+  h2.about-rect-words {
+    width: 400px;
+    font-size: 45px;
+    line-height: 50px;
+    left: 40px;
+  }
+
 }
