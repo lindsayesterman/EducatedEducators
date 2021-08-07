@@ -239,3 +239,35 @@ input[type="submit"]:hover {
     left: 40px;
   }
 }
+
+@media (max-width:450px){
+  .logo a {
+    font-size: 15px;
+  }
+  nav a {
+    font-size: 9px;
+  }
+  h2.about-rect-words {
+    width: 90%;
+    font-size:38px;
+  }
+  .scienceIcons{
+    border:1px solid black;
+  }
+  .scienceIcons > img {
+    width:60px;
+  }
+  .donate-header{
+    font-size:30px;
+  }
+  .donate-rect{
+    height:420px;
+  }
+  .donate-rect > img {
+    height:320px;
+    width: 90%;
+  }
+  .donate {
+    margin-top:500px;
+  }
+}
