@@ -2,6 +2,14 @@ html {
   font-weight: 300;
   background-color: whitesmoke;
 }
+
+.graph {
+  /* width: 30%;
+  margin-left: 250px; */
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +37,7 @@ header {
 .logo a {
   text-decoration: none;
   font-size: 30px;
-  color:black;
+  color: black;
 }
 nav {
   float: right;
@@ -40,7 +48,7 @@ nav a {
   letter-spacing: 2px;
   font-size: 20px;
   margin: 0 10px;
-  color:black;
+  color: black;
 }
 .landingImage {
   display: block;
@@ -173,6 +181,19 @@ input[type="submit"]:hover {
   margin-top: 700px;
 } */
 
+.textOnApple {
+  margin-top: 305px;
+  font-weight: bold;
+  color: white;
+  width: 800px;
+  margin-left: 290px;
+  font-size: 14.5px;
+}
+
+.textOnApple h2 {
+  color: black !important;
+}
+
 @media (max-width: 1000px) {
   .donate-header {
     font-size: 50px;
@@ -201,10 +222,10 @@ input[type="submit"]:hover {
   .contactFooter {
     margin-top: 80px;
   }
-  h2.about-rect-words{
-    width:500px;
-    left:40px;
-    font-size:45px;
+  h2.about-rect-words {
+    width: 500px;
+    left: 40px;
+    font-size: 45px;
   }
 }
 
@@ -232,7 +253,7 @@ input[type="submit"]:hover {
   }
 }
 
-@media (max-width:450px){
+@media (max-width: 450px) {
   .logo a {
     font-size: 15px;
   }
@@ -241,25 +262,25 @@ input[type="submit"]:hover {
   }
   h2.about-rect-words {
     width: 90%;
-    font-size:38px;
+    font-size: 38px;
   }
-  .scienceIcons{
-    border:1px solid black;
+  .scienceIcons {
+    border: 1px solid black;
   }
   .scienceIcons > img {
-    width:60px;
+    width: 60px;
   }
-  .donate-header{
-    font-size:30px;
+  .donate-header {
+    font-size: 30px;
   }
-  .donate-rect{
-    height:420px;
+  .donate-rect {
+    height: 420px;
   }
   .donate-rect > img {
-    height:320px;
+    height: 320px;
     width: 90%;
   }
   .donate {
-    margin-top:500px;
+    margin-top: 500px;
   }
 }
